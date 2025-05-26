@@ -22,6 +22,7 @@ This project simulates a real-world API vulnerability (BOLA - Broken Object Leve
 ```bash
 pip install -r requirements.txt
 
+### 2. Run
 -Run insecure version
 cd insecure_app
 uvicorn main:app --reload --port 8000
@@ -38,3 +39,10 @@ curl http://localhost:8001/user/profile/2 -H "authorization: user-1"   # ❌ Blo
 🔒 Security Notice
 This app is for educational use only and should never be deployed in a production environment.
 
+
+
+MIT License
+
+Copyright (c) 2025 Anita
+
+Permission is hereby granted, free of charge, to any person obtaining a copy...
