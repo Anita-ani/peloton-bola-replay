@@ -1,0 +1,2 @@
+2025-05-26 06:42:00,164 - INFO - [secure] Requester user-1 -> user-2 | Result: Blocked (forbidden)
+2025-05-26 06:42:06,454 - INFO - [secure] Requester user-1 -> user-1 | Result: Allowed
