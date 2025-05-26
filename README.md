@@ -18,11 +18,11 @@ This project simulates a real-world API vulnerability (BOLA - Broken Object Leve
 
 ## ▶️ How to Run
 
-### 1. Install requirements
+### . Install requirements
 ```bash
 pip install -r requirements.txt
 
-### 2. Run
+
 -Run insecure version
 cd insecure_app
 uvicorn main:app --reload --port 8000
